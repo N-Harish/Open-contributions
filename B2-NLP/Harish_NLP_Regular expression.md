@@ -8,13 +8,24 @@
 * RegEx are sequences of characters that are used as a pattern to search a string
 * These patterns are used in string functions such as find and replace, change a sub-string and many more
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Why RegEx
 
 * Ever Imagined a situation where you have a document of say 100 pages and you recently recognized that a particular word in that document is misspelled, so naturally you would     use find and replace to replace that particular word. On doing so you are indirectly using RegEx to match the string.
 * RegEx also makes validation (Password, Email, Dates and many more) simple since just we need to check wheather the data is in desired format
 * Often when doing NLP task we may need to process the text so RegEx can help in simplifying our task
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Use of RegEx in NLP
+
+* To clean the text i.e. remove unwanted punctuations, white space, split sentences into list of words (tokens)
+* Remove Hashtags and user handles from text (tweets)
+* remove urls 
+* Extract the content inside html tags by ignoring all the tags
+* Extracting emails, phone numbers, name as well split the email into (domain name,company name) and many more from text
+* Split the text into root word (Stemming)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
