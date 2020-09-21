@@ -54,6 +54,8 @@
 * ```re.search(P, S)``` :- Matches the first instance of Pattern ```P``` in string ```S```.
 * ```re.split(P, S)``` :- Splits the string ```S``` into a list using ```P``` as a delimiter.
 * ```re.sub(P, R, S)``` :- Replace ```P``` with ```R``` in string ```S```.
+* ```re.compile(P)``` :- Used to store Pattern ```P``` for future use.
+* ```re.finditer(P, S)``` :- Return an iterator yielding match objects over all non-overlapping matches for the pattern ```P``` in string ```S```.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
